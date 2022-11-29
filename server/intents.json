@@ -1,0 +1,88 @@
+{"intents":[
+	{"tag":"greetings",
+		"patterns":["Hello","hi","good morning","good afternoon","good evening", "whats up", "whaddup","Hey"],
+		"responses":["Hello!","Hi!","Welcome! Nice to talk with you.", "Hi there, how can I help you?"]
+	},
+	{"tag":"name",
+		"patterns":["What's your name","tell me your name","do you have a name"],
+		"responses":["I'm just a nameless chatbot, here to answer your questions about our ski center."]		
+	},
+
+	{"tag":"goodbyes",
+		"patterns":["Goodbye","bye bye","see you","thank you", "thanks"],
+		"responses":["Thank you for visiting!","Sorry, that you have to leave! See you next time.", "Thanks for stopping by, bye!","Thanks, see you later"]		
+	},
+
+	{"tag":"opening_hours",
+		"patterns":["When are you open","opening hours","available", "what time do you open"],
+		"responses":["We are open Monday to Sunday. Slopes are open from 9AM to 8PM, the bar is open 12-22."]	
+	},
+	{"tag":"prices",
+		"patterns":["How much is a ticket","What does it cost","how much", "ticket price", "day pass price", "cost of day pass"],
+		"responses":["A day pass is 20 euros a day for adults, 10 euros for children and students.","A day pass for an adult is 20 euros, children and students get a 50% discount"]
+
+	},
+	{"tag":"ticket_sale",
+		"patterns":["How can I buy a ticket","Where can I buy a ticket","where can I buy a day pass", "how to buy a day pass"],
+		"responses":["Day passes are for sale on our website and on the frontdesk."]
+
+	},
+	{"tag":"products",
+		"patterns":["Do you have skis for rent","Can we rent skis","can i rent equipment", "I don't have skis","i don't own skis", " i don't have a snowboard", "we don't have equipment"],
+		"responses":["We have all the equipment you may need for rent, including skis, poles, snowboards and helmets. ","We have skis, poles, snowboards helmets and other equipment available for rent." ]
+
+	},
+	{"tag":"products_price",
+		"patterns":["how much does renting skis cost","how much renting costs","price of renting", "how much is rent"],
+		"responses":["Prices for rentals start at 40e for skis+poles and snowboards, 10e for helmets, and 5e for other equipment. You can check our website for the full list." ]
+
+	},
+	{"tag":"contact",
+		"patterns":["How can I contact you","What is your email","Give me your phone number", "how can I call you"],
+		"responses":["Email us at skicenter@gmail.com, or call us: 123456789"]
+
+	},
+	{"tag":"lessons",
+		"patterns":["Do you offer ski lessons","snowboarding lessons","I don't know how to ski", "I don't know how to snowboard", "i can't ski", "i can't snowboard"],
+		"responses":["We offer free ski and snowboarding lessons everyday at 10am, 2pm and 6pm."]
+
+	},{"tag":"lesson_length",
+		"patterns":["How long are the lessons","how many hours do the lessons last for","lesson length"],
+		"responses":["The lessons last for one hour."]
+
+	},{"tag":"lesson_age",
+		"patterns":["how old can participate in lesson","ski lesson age limit"],
+		"responses":["For children's lessons, the age limit is 5 years."]
+
+	},
+	{"tag":"lesson_level",
+		"patterns":["do you have lessons for beginners", "levels of ski lessons"],
+		"responses":["We have lessons for all levels, from beginners to more advanced."]
+	},
+	{"tag":"lesson_price",
+		"patterns":["how much is ski lesson","how much does snowboarding lesson cost"],
+		"responses":["The lessons are included in the day pass."]
+
+	},{"tag":"lesson_register",
+		"patterns":["how can I sign up for lesson","how to register for lesson", "where to sign up for lesson", "where to register for lesson"],
+		"responses":["You can sign up for a lesson either on line or on site, at the frontdesk."]
+
+	},{"tag":"lesson_children",
+		"patterns":["Do you have ski lessons for children","childrens lessons", "lessons for kids","can children participate"],
+		"responses":["We have lessons for specifically children too, held by our experienced instructors. The age limit is 5 years."]
+
+	},{"tag":"slopes_children",
+		"patterns":["Do you have slopes for children","kids' slopes"],
+		"responses":["We have four slopes for children and beginners."]
+	},
+	{"tag":"slopes",
+		"patterns":["How many slopes do you have","how many slopes"],
+		"responses":["We have 40 slopes in total."]
+
+	},
+	{"tag":"slopes_lenght",
+		"patterns":["How long are the slopes","the longest slope"],
+		"responses":["All slopes are at least 1km in lenght. Most are over 2kms and the longest are 3.5 kilometers"]
+
+	}
+]}
